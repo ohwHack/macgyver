@@ -26,10 +26,6 @@ void setup()
 	pinMode(SONAR_ECHO, INPUT);
 
 	servo.attach(SERVO_PIN);
-
-	Serial.println(SONAR_STEP);
-	Serial.println("-");
-
 	
 }
 
